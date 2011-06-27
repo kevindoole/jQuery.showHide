@@ -1,0 +1,44 @@
+/*
+	Just some basic styles to get you going.
+	Haven't really tested any of this.
+*/
+
+
+#hidden-content {
+	/*
+		You will need to position this block wherever you want it to show up on the page when the showHide button is clicked.
+	*/
+    display: none;
+    background: #ddd;
+    border: 1px solid #999;
+    width:100px;
+    position: absolute;
+    top:30px;
+}
+
+/*If dropdown is set to true, an arrow is added to the button*/
+.showHide-dropdown-arrow {
+    height:15px;
+    border-left:1px solid #999;
+    margin: 0 0 0 5px;
+    padding: 0 0 0 5px;
+}
+
+/*"close" link on popup content*/
+.showHide-close {
+    color:#858585;
+    font-size:0.8em;
+}
+
+/*The link that will trigger the showing*/
+.showHide-button a {
+    color:#444;
+    text-decoration:none;
+    font-size:0.9em;
+}
+
+/*active button state*/
+.showHide-button-active {
+    background:#C2C2C2;
+    background-image:none;
+}

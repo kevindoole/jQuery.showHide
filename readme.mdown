@@ -1,0 +1,27 @@
+#Usage:
+`$("#id-of-button/link").showHide($("#id-of-hidden-fields-container", options);`
+
+#Default options:
+**hideText: 'close'**  
+the text to show on the close link below the popup field
+
+**hideIdPrefix: 'close',**  
+prefix to add to the id of the close button
+
+**hideClass: 'showHide-close'**  
+class to add to the close button
+
+**activeClass: 'showHide-button-active'**  
+class of activated button
+
+**replaceSubject: false**  
+replace the button? -- this is useful for select lists where you don't want to replace it if user has no js
+
+**replaceClass: 'showHide-button'**  
+class to add to the replacement button
+
+**replaceWithText: 'options'**  
+Text on the replacement button
+
+**dropdown: false**  
+Is it a dropdown? (just adds an arrow to the button)
